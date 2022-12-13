@@ -75,3 +75,49 @@ nav ul {
     text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        color: aliceblue;
+        position: relative;
+        z-index: 2;
+        padding: 2rem 2rem;
+    }
+
+    .title {
+        color: aliceblue;
+        z-index: 2;
+        position: absolute;
+        font-size: 29px;
+        left: 50%;
+        top: 61%;
+        transform: translate(-50%,-25%);
+    }
+
+    .subtitle {
+        color: rgb(168, 168, 168);
+        z-index: 4;
+        position: absolute;
+        font-size: 16px;
+        left: 50%;
+        top: 71%;
+        transform: translate(-50%,-25%);
+        text-align: center;
+    }
+
+    .footer {
+        color: rgb(94, 167, 255);
+        z-index: 6;
+        position: absolute;
+        font-size: 12px;
+        left: 50%;
+        top: 90%;
+        font-weight: bold;
+        transform: translate(-50%,-25%);
+        text-align: center;
+    }
+}

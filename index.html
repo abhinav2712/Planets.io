@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planets.io</title>
     <link rel="stylesheet" href="/moon.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body>
 
     <canvas class="webgl"></canvas>
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="#home" class="active">Planets.io</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#news">Earth</a>
+            <a href="#contact">Mars</a>
+            <a href="#about">Jupiter</a>
+            <a href="#resources">Resources</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
     <nav>
         <a href="/">Planets.io</a>
         <ul>
@@ -19,22 +41,19 @@
             <li><a href="/mars.html">Mars</a></li>
             <li><a href="/jupiter.html">Jupiter</a></li>
             <li><a href="https://threejs.org/docs/index.html#api/en/geometries/CircleGeometry">Resources</a></li>
-           
+
         </ul>
     </nav>
     <h1 class="title">Give it a Spin</h1>
     <h4 class="subtitle"> Moon, made by ThreeJS (resources at top right)
         Swipe through the planet and watch it move like a charm. <br>
         Rotation speed is based on real paramters of moon as well <br>
-      
+
     </h4>
     <h3 class="footer">Chekout more planets as well!</h3>
- 
-    
-    
-    
- 
+
     </div>
     <script type="module" src="/moon.jsx"></script>
 </body>
+
 </html>

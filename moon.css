@@ -99,6 +99,12 @@ nav ul {
         display: block;
     }
 
+    /* Add a grey background color on mouse-over */
+    #myLinks a:hover {
+        background-color: white;
+        color: black;
+    }
+
     /* Style the hamburger menu */
     .topnav a.icon {
         display: block;
@@ -180,6 +186,12 @@ nav ul {
         display: block;
     }
 
+    /* Add a grey background color on mouse-over */
+    #myLinks a:hover {
+        background-color: white;
+        color: black;
+    }
+
     /* Style the hamburger menu */
     .topnav a.icon {
         display: block;
@@ -259,6 +271,12 @@ nav ul {
         font-size: 25px;
         font-weight: bold;
         display: block;
+    }
+
+    /* Add a grey background color on mouse-over */
+    #myLinks a:hover {
+        background-color: white;
+        color: black;
     }
 
     /* Style the hamburger menu */

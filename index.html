@@ -23,10 +23,10 @@
         <a href="#home" class="active">Planets.io</a>
         <!-- Navigation links (hidden by default) -->
         <div id="myLinks">
-            <a href="#news">Earth</a>
-            <a href="#contact">Mars</a>
-            <a href="#about">Jupiter</a>
-            <a href="#resources">Resources</a>
+            <a href="/earth.html">Earth</a>
+            <a href="/mars.html">Mars</a>
+            <a href="/jupiter.html">Jupiter</a>
+            <a href="https://threejs.org/docs/index.html#api/en/geometries/CircleGeometry">Resources</a>
         </div>
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -54,6 +54,16 @@
 
     </div>
     <script type="module" src="/moon.jsx"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>

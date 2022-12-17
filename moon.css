@@ -75,58 +75,7 @@ nav ul {
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-
-    nav ul {
-        display: none;
-    }
-
-    nav a {
-        display: none;
-    }
-
-    nav {
-        color: aliceblue;
-        position: relative;
-        z-index: 2;
-        padding: 2rem 2rem;
-    }
-
-    .title {
-        color: aliceblue;
-        z-index: 2;
-        position: absolute;
-        font-size: 29px;
-        left: 50%;
-        top: 61%;
-        transform: translate(-50%, -25%);
-    }
-
-    .subtitle {
-        color: rgb(168, 168, 168);
-        z-index: 4;
-        position: absolute;
-        font-size: 16px;
-        left: 50%;
-        top: 71%;
-        transform: translate(-50%, -25%);
-        text-align: center;
-    }
-
-    .footer {
-        color: rgb(94, 167, 255);
-        z-index: 6;
-        position: absolute;
-        font-size: 12px;
-        left: 50%;
-        top: 90%;
-        font-weight: bold;
-        transform: translate(-50%, -25%);
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 320px) {
 
     /* Style the navigation menu */
     .topnav {
@@ -150,6 +99,12 @@ nav ul {
         display: block;
     }
 
+    /* Add a grey background color on mouse-over */
+    #myLinks a:hover {
+        background-color: white;
+        color: black;
+    }
+
     /* Style the hamburger menu */
     .topnav a.icon {
         display: block;
@@ -158,4 +113,388 @@ nav ul {
         top: 0;
     }
 
+    nav ul {
+        display: none;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    nav {
+        color: aliceblue;
+        position: relative;
+        z-index: 2;
+        padding: 2rem 2rem;
+    }
+
+    .title {
+        color: aliceblue;
+        z-index: 2;
+        position: absolute;
+        font-size: 24px;
+        left: 50%;
+        top: 62%;
+        transform: translate(-50%, -25%);
+    }
+
+    .subtitle {
+        color: rgb(168, 168, 168);
+        z-index: 4;
+        position: absolute;
+        font-size: 13px;
+        left: 50%;
+        top: 72%;
+        transform: translate(-50%, -25%);
+        text-align: center;
+    }
+
+    .footer {
+        color: rgb(94, 167, 255);
+        z-index: 6;
+        position: absolute;
+        font-size: 10px;
+        left: 50%;
+        top: 90%;
+        font-weight: bold;
+        transform: translate(-50%, -25%);
+        text-align: center;
+    }
 }
+
+@media only screen and (min-width: 375px) {
+
+    /* Style the navigation menu */
+    .topnav {
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        display: block;
+    }
+
+    /* Add a grey background color on mouse-over */
+    #myLinks a:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    nav {
+        color: aliceblue;
+        position: relative;
+        z-index: 2;
+        padding: 2rem 2rem;
+    }
+
+    .title {
+        color: aliceblue;
+        z-index: 2;
+        position: absolute;
+        font-size: 28px;
+        left: 50%;
+        top: 62%;
+        transform: translate(-50%, -25%);
+    }
+
+    .subtitle {
+        color: rgb(168, 168, 168);
+        z-index: 4;
+        position: absolute;
+        font-size: 14px;
+        left: 50%;
+        top: 72%;
+        transform: translate(-50%, -25%);
+        text-align: center;
+    }
+
+    .footer {
+        color: rgb(94, 167, 255);
+        z-index: 6;
+        position: absolute;
+        font-size: 12px;
+        left: 50%;
+        top: 90%;
+        font-weight: bold;
+        transform: translate(-50%, -25%);
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+
+    /* Style the navigation menu */
+    .topnav {
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        display: block;
+    }
+
+    /* Add a grey background color on mouse-over */
+    #myLinks a:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    nav {
+        color: aliceblue;
+        position: relative;
+        z-index: 2;
+        padding: 2rem 2rem;
+    }
+
+    .title {
+        color: aliceblue;
+        z-index: 2;
+        position: absolute;
+        font-size: 32px;
+        left: 50%;
+        top: 61%;
+        transform: translate(-50%, -25%);
+    }
+
+    .subtitle {
+        color: rgb(168, 168, 168);
+        z-index: 4;
+        position: absolute;
+        font-size: 14px;
+        left: 50%;
+        top: 72%;
+        transform: translate(-50%, -25%);
+        text-align: center;
+    }
+
+    .footer {
+        color: rgb(94, 167, 255);
+        z-index: 6;
+        position: absolute;
+        font-size: 13px;
+        left: 50%;
+        top: 90%;
+        font-weight: bold;
+        transform: translate(-50%, -25%);
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+
+    /* Style the navigation menu */
+    .topnav {
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        display: none;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    nav {
+        color: aliceblue;
+        position: relative;
+        z-index: 2;
+        padding: 2rem 2rem;
+    }
+
+    .title {
+        color: aliceblue;
+        z-index: 2;
+        position: absolute;
+        font-size: 36px;
+        left: 50%;
+        top: 61%;
+        transform: translate(-50%, -25%);
+    }
+
+    .subtitle {
+        color: rgb(168, 168, 168);
+        z-index: 4;
+        position: absolute;
+        font-size: 18px;
+        left: 50%;
+        top: 72%;
+        transform: translate(-50%, -25%);
+        text-align: center;
+    }
+
+    .footer {
+        color: rgb(94, 167, 255);
+        z-index: 6;
+        position: absolute;
+        font-size: 15px;
+        left: 50%;
+        top: 90%;
+        font-weight: bold;
+        transform: translate(-50%, -25%);
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    /* Style the navigation menu */
+    .topnav {
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        display: none;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    nav {
+        color: aliceblue;
+        position: relative;
+        z-index: 2;
+        padding: 2rem 2rem;
+    }
+
+    .title {
+        color: aliceblue;
+        z-index: 2;
+        position: absolute;
+        font-size: 48px;
+        left: 50%;
+        top: 63%;
+        transform: translate(-50%, -25%);
+    }
+
+    .subtitle {
+        color: rgb(168, 168, 168);
+        z-index: 4;
+        position: absolute;
+        font-size: 18px;
+        left: 50%;
+        top: 76%;
+        transform: translate(-50%, -25%);
+        text-align: center;
+    }
+
+    .footer {
+        color: rgb(94, 167, 255);
+        z-index: 6;
+        position: absolute;
+        font-size: 15px;
+        left: 50%;
+        top: 90%;
+        font-weight: bold;
+        transform: translate(-50%, -25%);
+        text-align: center;
+    }
+}
+
+
